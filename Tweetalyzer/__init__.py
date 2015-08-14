@@ -16,7 +16,7 @@ from DatumBox import DatumBox
 datum_box = DatumBox('bfddf74008bd09951f8ad059a586d9fe')
 ##################### TWEET PRE-PROCESSING AND REGEX ########################
 synid=[]
-sep=re.compile(r"[ \t,.:;?!]+")
+sep=re.compile(r"[ \t,.:;?!-/]+")
 hasht = re.compile(r"#[a-zA-Z0-9_]+")
 atp = re.compile(r"@[a-zA-Z0-9_]+")
 

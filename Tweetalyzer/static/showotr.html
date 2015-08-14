@@ -240,6 +240,9 @@
             //Replacing '#' with encoding %23
             tfp1=tfpro.replace(/#/g,'%23')
 
+            //Replacing '%' with %25
+            tfp1=tfp1.replace(/%/g,'%25')
+
             //Removing redundant spaces and punctuation
             tfp2=tfp1.replace(/[ \t,?;\n]+/g,' ') 
 			
